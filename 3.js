@@ -2,12 +2,11 @@ const generate = () => {
   const res = []
   let sum = 0;
 
-	while (sum < 200) {
+  while (sum < 200) {
     const num = Math.random() * 10 % 10 + 1 ^ 0
     res.push(num)
     sum += num
   }
-
 
   return res;
 }
