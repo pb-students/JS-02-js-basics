@@ -12,7 +12,7 @@ while (bought.length < priceTable.length / 2) {
 
   const { name, price } = 
   bought.push({
-		...priceTable[i],
+    ...priceTable[i],
     quantity: Math.random() * 10 + 1 ^ 0
   })
 }
